@@ -1,7 +1,12 @@
 import Head from 'next/head'
 import Header from './Header'
+import utilStyles from '../styles/utils.module.css'
+import styles from './layout.module.css'
 
-export default function Layout({ children, pageTitle, ...props }) {
+const name = 'Inder'
+export const siteTitle = 'Next.js Blog'
+
+export default function Layout({ children, home, pageTitle, ...props }) {
   return (
     <>
       <Head>
@@ -10,9 +15,11 @@ export default function Layout({ children, pageTitle, ...props }) {
       </Head>
       <section className="layout">
         <Header />
-        <div className="content">{children}</div>
+        <div className={styles.container}>{children}</div>
+        <div className="push"></div>
       </section>
-      <footer>Built by me!</footer>
+     
+      <footer className="footer">Built by me!</footer>
     </>
   )
 }
