@@ -10,15 +10,16 @@ export default function BlogPost({ siteTitle, frontmatter, markdownBody }) {
   return (
     <Layout pageTitle={`${siteTitle} | ${frontmatter.title}`}>
       <Link href="/">
-        <a>Back to post list</a>
+        <a className="margin">Back to post list</a>
       </Link>
       <article>
-        <h1>{frontmatter.title}</h1>
-        <p>By {frontmatter.author}</p>
+        <h3>{frontmatter.title}</h3>
+        <p className="article-meta">By {frontmatter.author}</p>
         <div>
           <ReactMarkdown source={markdownBody} />
         </div>
       </article>
+      <a href="#">Back to top</a>
     </Layout>
   )
 }

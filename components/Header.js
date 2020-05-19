@@ -4,12 +4,12 @@ export default function Header() {
   return (
     <>
       <header className="header">
-        <nav className="nav">
+        <nav className="border fixed">
           <Link href="/">
-            <a>My Blog</a>
+            <a className="margin">My Blog</a>
           </Link>
           <Link href="/about">
-            <a>About</a>
+            <a className="margin">About</a>
           </Link>
         </nav>
       </header>

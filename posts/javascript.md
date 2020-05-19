@@ -18,10 +18,13 @@ if we use const in objects then the variable will remain the same but the object
 
 In JS function could mean a "procedure", a collection of statements that can be invoked one or more times, may be provided some inputs, and may give back one or more outputs.
 
+
+``` 
 function awesomeFunction(coolThings) {
 	//..
 	return amazingStuff;
 }
+```
 
 the name of the function and the value it represents is associated in the compilation phase of the code
 
@@ -35,7 +38,7 @@ Strings are immutable because they are primitive values
 Well in this case we are reassigning pet to a totally new block of information which happens to be a string of characters.
 
 
-Different JavaScript nouns and verbs:
+### Different JavaScript nouns and verbs:
 
 variables
 
