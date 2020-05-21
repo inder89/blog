@@ -38,7 +38,29 @@ Strings are immutable because they are primitive values
 Well in this case we are reassigning pet to a totally new block of information which happens to be a string of characters.
 
 
-### Different JavaScript nouns and verbs:
+### Variables and Blocks
 
-variables
+The primary purpose of variables in JavaScript is managing program state. Its value might change over the course of the program. In other words state is tracking the changes to values as your program runs.
 
+Grouping a series of statements together is called a block.
+
+```
+var amount = 99.99;
+
+// a general block
+{
+	amount = amount * 2;
+	console.log( amount );
+}
+
+```
+
+A more common type of block is the one attached to an if statement or a loop.
+
+#### If statements
+
+If a value is not a Boolean inside a conditional JS coerces it into a boolean. The values which become false upon coercion are called "falsy" and the rest are "truthy". 
+
+#### Loops
+
+Repeating a set of actions only while the condition still holds is the job of programming loops. Each time the loop block executes, that's called an iteration.
