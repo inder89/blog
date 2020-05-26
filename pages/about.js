@@ -9,7 +9,7 @@ const About = ({ title, description, ...props }) => {
           {description}
         </p>
         <p>
-          Hi, my name is Inder and this blog is just my notes while a learn some deep JS concepts.
+          Hi, my name is Inder and this blog is just my notes while I learn some deep JS concepts.
         </p>
       </Layout>
     </>
