@@ -33,6 +33,8 @@ To return multiple values from a function we can wrap them into a single object/
 "===" disallows any type coercion 
 Special cases of === : NaN === NaN; // false , May be use Number.isNaN(..)
 0 === -0; // true  use Object.is(..) , Does it deep checking, quadruple-equals instead of triple-equals
+When the types are equal '==' & '===' do the same exact thing so implicit coercion might be easier and preferable
+
 Strings are immutable because they are primitive values
 
 Well in this case we are reassigning pet to a totally new block of information which happens to be a string of characters.
@@ -64,3 +66,37 @@ If a value is not a Boolean inside a conditional JS coerces it into a boolean. T
 #### Loops
 
 Repeating a set of actions only while the condition still holds is the job of programming loops. Each time the loop block executes, that's called an iteration.
+
+### Three Pillars of JS
+
+* Types / Coercion
+* Scopes & Closures
+* this & Prototypes
+Which values if we try to convert them will become false?
+""
+0, -0
+null
+NaN
+false
+undefined
+All others values become a true 
+
+'<' like comparison operators automatically converts the operands into a number if one of them is a number.
+
+#### this & Prototypes
+
+a this-aware function can have a dynamic context depending upon its execution.
+Remember it's how a function is called is what matters not how it's defined.
+
+```
+var workshop = {
+	teacher: "Kyle",
+	ask(question) {
+		console.log(this.teacher, question);
+	},
+};
+
+workshop.ask("What is implicit binding?");
+// Kyle What is implicit binding?
+
+```
