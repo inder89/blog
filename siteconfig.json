@@ -1,4 +1,4 @@
 {
   "title": "Demo Blog",
-  "description": "This is a simple blog built with Next, easily deployable to Netlify!"
+  "description": "This blog is built in Next.js and deployed to Vercel and I use PaperCSS for the stylings just because that explains the nature of this blog perfectly. Handwritten scribbles which might become actual content someday"
 }

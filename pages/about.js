@@ -9,11 +9,7 @@ const About = ({ title, description, ...props }) => {
           {description}
         </p>
 
-        <p>
-          Hi, my name is Inder and I am a JavaScript Developer based in Melbourne, Australia. 
-          This blog is just personal ramblings written in markdown as I learn deep JavaScript concepts. 
-          It's built in Next.js and deployed to Vercel and I use PaperCSS for the stylings just because that explains the nature of this blog perfectly. Handwritten scribbles which might become actual content someday.
-        </p>
+          
       </Layout>
     </>
   )
