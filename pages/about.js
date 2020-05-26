@@ -8,8 +8,9 @@ const About = ({ title, description, ...props }) => {
         <p className="description">
           {description}
         </p>
-
-          
+        <p>
+          Hi, my name is Inder and this blog is just my notes while a learn some deep JS concepts.
+        </p>
       </Layout>
     </>
   )
