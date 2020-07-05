@@ -1,5 +1,11 @@
+---
 
-# Regular Expressions
+title: "Regular Expressions"
+author: 'Inder'
+date: "05-07-20"
+---
+
+
 ## Positive Lookahead:
 The positive lookahead asserts that the fist part of the expression must be followed by the lookahead expression.
 (T|t)he(?=\sfat) Match <em>The</em> or <em>the</em> only if it's followed by the word <em>fat</em>.
