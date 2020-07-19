@@ -34,3 +34,5 @@ Learning programming is like building blocks. To build a tall tower, you start f
 - You need *variables* to store data (aka state) during your program's execution.
 - You need *loops* to repeat tasks until a condition stops being true.
 - You need *functions* to organize your code into logical and reusable chunks. 
+
+## 
