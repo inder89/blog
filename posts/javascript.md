@@ -100,3 +100,6 @@ workshop.ask("What is implicit binding?");
 // Kyle What is implicit binding?
 
 ```
+Arrow functions don't get their own 'this' so it's not important not to use them as methods.
+The decision to make is whether we know in what way the function will be called. In case of dynamic calling it's better to use an arrow function whereas if need the 'this' value to point to the given object's variable, it's better to use a normal function 
+
