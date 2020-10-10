@@ -20,3 +20,6 @@ The visual display of the page is shown on the screen (this stage is called pain
 Each element, attribute, and piece of text becomes a DOM node in the DOM tree structure. The nodes are defined by their relationship to other DOM nodes.
 
 DOM is where the content and style(CSS) meet up.
+
+## Flow direction and display
+Block elements(display: block) follow flow direction whereas inline elements(display: inline) follow writing direction
